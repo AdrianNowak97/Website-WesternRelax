@@ -1,0 +1,587 @@
+@charset "utf-8";
+
+body{
+    font-family: 'Lato', sans-serif;
+    font-size:20px;
+}
+
+nav{
+    border-bottom: 1px solid #494949;
+    position: relative !important;
+    left: 0;
+    top: 0;
+    z-index:100!important;
+    background: white !important;
+}
+
+#nav{
+    height: 117px;
+}
+
+nav div ul li a{
+    font-size:22px;
+    text-align: center;
+    color:#A62221 !important;
+}
+
+.active {
+    color:#494949 !important;
+    font-weight: 700;
+}
+
+nav div ul li a:hover{
+    color:#494949 !important;
+}
+
+#lang a{
+    color:#494949;
+}
+
+#lang{
+    position:absolute;
+    right:10px;
+    top: 10px;
+}
+
+.navbar-nav {
+    position: absolute;
+    right:100px;
+}
+
+#carousel{
+    border-bottom:1px solid #494949;
+}
+
+article{
+    padding:40px 40px 40px 40px;
+}
+    
+
+#oNas{
+    padding: 35px;
+    color:#494949;
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    font-size: 70px;
+    text-align: center;
+    white-space: nowrap;
+}
+
+article header div img{
+    max-height: 40px;
+    margin-top: 25px;
+}
+
+.tresc img{
+    border-radius: 35px;
+    text-align: center;
+    margin-top: 30px;
+    width: 100%;
+    height: 100%;
+}
+
+.tresc div{
+    text-align: center;
+    margin-top:20px;
+    margin-bottom: 20px;
+}
+
+#atrakcje img{
+    border-radius: 0px;
+}
+
+#atrakcje figure{
+    position:relative;
+}
+
+#atrakcje{
+    background: #494949;
+    color:white;
+    width: 100% !important;
+    overflow: hidden;
+}
+
+.container-fluid{
+    padding-right:0 !important;
+    padding-left:0 !important;
+}
+
+#atrakcje row{
+    text-align: center;
+}
+
+
+#atrakcje h3{
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    width: 90%;
+    transform: translate(-50%, -50%);
+    font-size:60px;
+}
+
+#atrakcje h4{
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    top: 75%;
+    width: 80%;
+    transform: translate(-50%, -50%);
+    font-size:30px;
+}
+
+#imprezy{
+    background: black;
+    color:white;
+}
+
+#imprezy img{
+    border-radius: 0;
+}
+
+    .bigSizeImage{
+        display: none !important;
+    }
+
+    #imprezy p{
+        margin-top:20px;
+    }
+
+    
+    #obiekt p{
+        margin-top:30px;
+    }
+
+    #oferta{
+        background: #A62221;
+        color:white;
+    }
+
+.box{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    background: #494949;
+    border: 1px solid white;
+}
+
+
+#oferta h2{
+    font-size: 30px;
+}
+
+#oferta h3{
+    font-size: 20px;
+}
+
+#oferta p span {
+    font-size:25px;
+    
+}
+
+#galeria img:hover{
+    cursor: pointer;
+}
+
+#fullWindow img{
+    cursor: default!important;
+}
+
+#kontakt{
+    background: #494949;
+    color:white;
+    padding: 60px 40px 20px 40px;
+}
+
+footer{
+    background: black;
+    padding: 20px;
+    padding: 20px 40px 20px 40px;
+    border-top: #494949 solid 1px;
+}
+
+
+footer a{
+    color:#494949;
+    text-decoration: none;
+    font-size:18px;
+}
+
+footer a:hover{
+    text-decoration: none;
+    color:white;
+}
+
+footer a span{
+    margin-left: 10px;
+}
+
+.autor{
+    color:#494949;
+    font-size:14px;
+    float: right;
+    padding-top:6px;
+    padding-left: 4px;
+}
+
+#galeria img{
+    border-radius:0;
+}
+
+#galeria a:hover{
+    cursor: pointer;
+}
+
+
+
+#fullWindow{
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 50px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+}
+
+.zamknij {
+  color: white;
+  position: absolute;
+  top: 10px;
+  right: 25px;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+.zamknij:hover {
+  color: #999;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+.nastepny,.poprzedni{
+  width: auto;
+  padding: 16px;
+  color: white !important;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.poprzedni{
+    position: absolute;
+    top:50%;
+    left: 5%;
+}
+
+.nastepny{
+  position: absolute;
+  top: 50%;
+  right: 5%;
+}
+
+.poprzedni:hover,
+.nastepny:hover {
+  color: #999;
+  text-decoration: none;
+  cursor:pointer;
+}
+
+#five1{
+    display: block;
+}
+
+#five2{
+    display: none;
+}
+
+#five3{
+    display: none;
+}
+
+#five4{
+    display: none;
+}
+
+#five5{
+    display: none;
+}
+
+
+#five6{
+    display: none;
+}
+
+#five7{
+    display: none;
+}
+
+#five8{
+    display: none;
+}
+
+#five9{
+    display: none;
+}
+
+#fullWindow img{
+    display: block !important;
+    margin: auto !important;
+    height: 95% !important;
+    width: auto !important;
+
+}
+
+.aSrodkowy{
+    display: none;
+}
+    
+.aOstatni{
+    display: inline;
+}
+
+
+@media all and (max-width: 1400px) {
+   #atrakcje h3{
+        font-size:40px;
+    }
+
+    #atrakcje h4{
+        font-size:25px;
+    }
+    
+}
+
+
+@media all and (max-width: 1020px) {
+    #kontakt h2{
+        font-size:28px;
+        white-space: nowrap;
+    }
+    
+    #kontakt h3{
+        font-size:24px;
+        white-space: nowrap;
+    }
+    
+    #kontakt h4{
+        font-size:20px;
+        white-space: nowrap;
+    }
+    
+    #kontakt h5{
+        font-size:14px;
+    }
+    
+}
+
+@media all and (max-width: 991px) {
+    nav div ul li a {
+        border-bottom: 1px dashed #494949;
+    }
+    
+    nav div ul li:first-child {
+        border-top: 1px dashed #494949;
+    }
+    
+    .navbar-nav {
+        position: relative;
+        right: 0px;
+    }
+    
+    h1{
+        font-size:35px;
+    }
+    
+    .tresc div{
+        font-size:18px;
+    }
+    
+    article header div img{
+        margin-top:0px;
+    }
+    
+    nav div ul li a:hover{
+       background-color:#A62221;
+        color:white !important;
+    }   
+
+}
+@media all and (max-width: 766px) {
+    
+    
+    
+    .aSrodkowy{
+        display: inline;
+    }
+    
+    .aOstatni{
+        display: none;
+    }
+    iframe{
+        height: 400px;
+    }
+    
+    #kontakt h2{
+        font-size:40px;
+        white-space: nowrap;
+    }
+    
+    #kontakt h3{
+        font-size:30px;
+        white-space: nowrap;
+    }
+    
+    #kontakt h4{
+        font-size:25px;
+        white-space: nowrap;
+    }
+    
+    #kontakt h5{
+        font-size:20px;
+    }
+    
+    .normalSizeImage{
+        display: none !important;
+   }
+
+   .bigSizeImage{
+        display: block !important;
+   }
+    
+    #atrakcje h3{
+        font-size:35px;
+    }
+    
+    #atrakcje h4{
+        font-size:20px;
+    }
+    
+    #fullWindow img{
+        width: 90% !important;
+        height: auto !important;
+    }
+}
+
+@media all and (max-width: 502px) {
+    
+    
+    
+    iframe{
+        height: 300px;
+    }
+   #kontakt h2{
+        font-size:28px;
+       white-space: normal;
+    }
+    
+    #kontakt h3{
+        font-size:24px;
+        white-space: nowrap;
+    }
+    
+    #kontakt h4{
+        font-size:20px;
+        white-space: nowrap;
+    }
+    
+    #kontakt h5{
+        font-size:12px; 
+    }
+    
+    #kontakt h5:last-of-type{
+        font-size:12px; 
+        white-space: nowrap;
+    }
+    
+    footer a span {
+        display: none;
+    }
+             
+}
+
+@media all and (max-width: 450px) {
+     #atrakcje h3{
+        font-size:30px;
+    }
+    
+    #atrakcje h4{
+        font-size:20px;
+    }
+    
+    article{
+        padding: 60px 20px 60px 20px;
+    }
+    
+    .box{
+    padding: 10px;
+    width: 100%;
+    height: 100%;
+    }
+
+
+    #oferta h2{
+        font-size: 25px;
+    }
+
+    #oferta h3{
+        font-size: 15px;
+    }
+    
+    #oferta p span {
+        font-size:20px;
+    }
+    
+
+}
+
+@media all and (max-width: 381px) {
+    #nav{
+        height:157px;
+    }
+    
+    h1{
+        font-size:24px;
+    }
+    
+    article header div img{
+        margin-top: 0px;
+    }
+    
+    .tresc div{
+        font-size:16px;
+    }
+    
+    #atrakcje h3{
+        font-size:25px;
+    }
+
+    #atrakcje h4{
+        font-size:15px;
+    }
+
+}
+
+
+@media all and (max-width: 300px) {
+    .tresc div{
+        font-size:14px;
+    }
+    
+    #atrakcje h3{
+        font-size:20px;
+    }
+
+    #atrakcje h4{
+        font-size:14px;
+    }
+    
+}
+
